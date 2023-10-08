@@ -9,10 +9,10 @@ It uses FASTAPI
 
 Steps to run the project:
 
-install python
-install git
-git clone <repo_name>
-create virtual environment
-pip install requirement.txt
-uvicorn main:app --reload 
+#install python
+#install git
+#git clone <repo_name>
+#create virtual environment
+#pip install requirement.txt
+#uvicorn main:app --reload 
 

@@ -103,7 +103,7 @@ async def contact_us(request: Request, firstname: str = Form(...),
     moviejira.create_issue(fields)
     
 
-    return templates.TemplateResponse("register.html", {"request": request})
+    return templates.TemplateResponse("thank-you.html", {"request": request})
 
 
 
